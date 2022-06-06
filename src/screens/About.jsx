@@ -4,23 +4,11 @@ import './screens-style.css'
 export default function About() {
   return (
     <div className="about-container">
-      <div className='about-header'>
-        <h3 className="title">About me</h3>
+      <div className='titles'>
+        <h3 className="title about-title" >About me</h3>
       </div>
       <p className="about-bio">
         &nbsp;&nbsp;&nbsp;&nbsp;
-        My pursuit to become a developer is nothing special but simply out of curiosity. It started
-        out one morning at a friend's place, we were all rallying up there before our afternoon excursions. He
-        had some work to finish up before our little adventure, so we sat on the couch waiting patiently while watching television.
-        As some time went on I noticed something in the corner of my eye. On his computer screen, lines and lines of colorful random
-        texts, I was intrigued. I approached behind him then stood there watching quietly for the next couple of
-        minutes just trying to make sense of what was going on. Nope, absolutely dumbfounded, I broke my
-        silence and I must've asked all the 5 W's & How, plus another million questions before he even got to
-        finish answering any one. As he was trying to explain to me like a 5 year old, immediately, I
-        knew I was hooked. It was like the curtains had been lifted and now I'm entering a whole new world. I had
-        so many more questions and needed so many more answers. Wanting more, I went home that night and jumped on to
-        my most trusted source, google.com and that's when my journey began.
-        <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;
         My choice to become a full-stack developer is really my love for both front & back end. I love

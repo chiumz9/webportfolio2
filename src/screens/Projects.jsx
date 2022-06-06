@@ -21,23 +21,22 @@ export default function Projects() {
 
   return (
     <div className="projects-container">
-      <h3 className="title">
+      <h3 className="titles">
         Projects & Collaborations
       </h3>
       <div className='project-card'>
-        <img className="project-image" src={cryptoimg} />
+        <div className="launch">
+          <img className="project-image" src={cryptoimg} />
+          <div>
+            <img className="launch-logo" src={launch} onClick={() => handleClick(crpytolnk)}></img>
+          </div>
+        </div>
         <div className="project-description">
           <h3>"CrytoAPI"</h3>
           <p>
             "Creating a front-end that displays crypto-currency informations
             fed from a third party API from a fellow General Assembly member."
           </p>
-          <br/>
-          <br/>
-          <div className="launch">
-            <img className="launch-logo" src={launch} onClick={() => handleClick(crpytolnk)}></img>
-          <p> -launch</p>
-          </div>
         </div>
       </div>
       <div className='project-card'>
@@ -51,13 +50,15 @@ export default function Projects() {
           <br/>
           <div className="launch">
             <img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}></img>
-          <p> -launch</p>
           </div>
         </div>
         <img className="project-image" src={tohimg} />
       </div>
       <div className='project-card'>
-        <img className="project-image" src={peakscout} />
+        <div>
+          <img className="project-image" src={peakscout} />
+          <img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}></img>
+        </div>
         <div className='project-description'>
           <div className="project-title">
             <h3>"Peak Scout"</h3>
@@ -71,10 +72,7 @@ export default function Projects() {
           </p>
           <br/>
           <br/>
-          <div className="launch">
-            <img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}></img>
-          <p> -launch</p>
-          </div>
+
         </div>
       </div>
       <div className='project-card'>
@@ -92,7 +90,7 @@ export default function Projects() {
           <br/>
           <div className="launch">
             <img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}></img>
-          <p> -launch</p>
+            <p> -launch</p>
           </div>
         </div>
         <img className="project-image" src={linkedfin} />

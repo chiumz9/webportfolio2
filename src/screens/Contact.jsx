@@ -10,7 +10,7 @@ import resume from '../images/ChiuZhouResume.pdf'
 export default function Contacts() {
   return (
     <div className="contact-container">
-      <h2 className="title">Contact</h2>
+      <h2 className="titles">Contact</h2>
       <div>
         <div className='contact-logo-container'>
           <h3>Reach me @ </h3>
