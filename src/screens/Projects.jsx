@@ -4,6 +4,7 @@ import cryptoimg from '../images/cryptoapi.png'
 import tohimg from '../images/towerofhanoi.png'
 import peakscout from '../images/peakscout.png'
 import linkedfin from '../images/linkedfin.png'
+import githublogo from '../images/githublogo.png'
 
 import launch from '../images/launchlogo.png'
 
@@ -21,15 +22,16 @@ export default function Projects() {
 
   return (
     <div className="projects-container">
-      <h3 className="titles">
-        Projects & Collaborations
-      </h3>
+      <h3 className="titles">Projects & Collaborations</h3>
+
+
       <div className='project-card'>
         <div className="launch">
           <img className="project-image" src={cryptoimg} />
-          <div>
-            <img className="launch-logo" src={launch} onClick={() => handleClick(crpytolnk)}></img>
-          </div>
+          <ul className='contact-logos'>
+            <li><img className="launch-logo" src={launch} onClick={() => handleClick(crpytolnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+          </ul>
         </div>
         <div className="project-description">
           <h3>"CrytoAPI"</h3>
@@ -39,42 +41,49 @@ export default function Projects() {
           </p>
         </div>
       </div>
-      <div className='project-card'>
+
+
+      <div className="project-card">
         <div className='project-description'>
           <h3>"Tower of Hanoi"</h3>
           <p>
             "Reacreation of the classic puzzle. 3 different difficulty levels.
             Tracks the last scores so you can challenge yourself!"
           </p>
-          <br/>
-          <br/>
-          <div className="launch">
-            <img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}></img>
-          </div>
         </div>
-        <img className="project-image" src={tohimg} />
+        <div className="launch">
+          <img className="project-image" src={tohimg} />
+          <ul className='contact-logos'>
+            <li><img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+          </ul>
+        </div>
       </div>
+
+
       <div className='project-card'>
-        <div>
+        <div className="launch">
           <img className="project-image" src={peakscout} />
-          <img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}></img>
+          <ul className='contact-logos'>
+            <li><img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+          </ul>
         </div>
         <div className='project-description'>
           <div className="project-title">
             <h3>"Peak Scout"</h3>
             <p> - group collab. </p>
+            <p>
+              "Find the best Rock Climbing Gym in NYC that suits your needs.
+              Full-stack application using MongoDB as backend
+              with CRUD capabilities. <br/>Create, Read, Update
+              or Delete a gym"
+            </p>
           </div>
-          <p>
-            "Find the best Rock Climbing Gym in NYC that suits your needs.
-            Full-stack application using MongoDB as backend
-            with Full CRUD capabilities. Create, Read, Update
-            or Delete a gym"
-          </p>
-          <br/>
-          <br/>
-
         </div>
       </div>
+
+
       <div className='project-card'>
         <div className='project-description'>
           <div className="project-title">
@@ -90,12 +99,16 @@ export default function Projects() {
           <br/>
           <div className="launch">
             <img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}></img>
-            <p> -launch</p>
           </div>
         </div>
-        <img className="project-image" src={linkedfin} />
+        <div className="launch">
+          <img className="project-image" src={linkedfin} />
+          <ul className='contact-logos'>
+            <li><img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+          </ul>
+        </div>
       </div>
-
     </div >
   )
 }

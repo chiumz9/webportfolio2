@@ -5,6 +5,8 @@ import csslogo from '../images/csslogo.png'
 import jslogo from '../images/jslogo.png'
 import pythonlogo from '../images/pythonlogo.png'
 import profileimg from '../images/profileimg.jpg'
+import djangoimg from '../images/django.svg'
+import reactimg from '../images/reactlogo.png'
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
           <img className="logos" src={csslogo} />
           <img className="logos" src={jslogo} />
           <img className="logos" src={pythonlogo} />
+          <img className="logos" src={djangoimg} />
+          <img className="logos" src={reactimg} />
         </div>
       </div>
       <div className="profileimg-container" >
