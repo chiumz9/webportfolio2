@@ -148,8 +148,8 @@
 
 .contact-logo {
   list-style-type: none;
-  padding: 10%;
-  margin: 5%
+  padding: 5%;
+  margin: 5%;
 }
 .contact-logo:hover{
   border-bottom: 2px solid grey;
@@ -193,18 +193,17 @@
    max-height: 50px;
 }
 .resume{
-  padding: 10%;
+  padding: 1%;
   color: black;
   border: 2px solid black;
   text-decoration: none;
+  border-radius: 0.5rem;
 }
 .resume:hover{
   background-color: lightgrey;
 }
 @media only screen and (max-width: 700px){
-  .project-title {
-    flex-direction: column;
-  }
+
   .about-bio{
     font-size: 15px;
   }

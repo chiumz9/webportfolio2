@@ -1,9 +1,8 @@
 #navbar{
-    top: 0px;
     z-index: 1;
     position: fixed;
     width: 100vw;
-    margin-top: -30px;
+    margin-top: -17px;
 }
 .screens{
     padding-top: 5rem;

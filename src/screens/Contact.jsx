@@ -16,14 +16,12 @@ export default function Contacts() {
           <h3>Reach me @ </h3>
           <ul className='contact-logos'>
             <li img className='contact-logo' ><a href="mailto:chiumzhou8@gmail.com"><img src={gmaillogo} /></a></li>
-            <li img className='contact-logo' ><a href="https://github.com/chiumz9"><img src={githublogo} /></a></li>
             <li img className='contact-logo' ><a href="https://www.linkedin.com/in/chiu-zhou/"><img className='linkedin-logo'  src={linkedlogo} /></a></li>
+            <li img className='contact-logo' ><a href="https://github.com/chiumz9"><img src={githublogo} /></a></li>
           </ul>
         </div>
       </div>
-      <div className="resume-container">
-        <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
-      </div>
+        <a className="resume" href={resume} >Download Resume</a>
     </div>
 
   )

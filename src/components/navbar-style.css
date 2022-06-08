@@ -9,8 +9,6 @@
   font-weight: bold;
   font-size: medium;
   text-decoration: none;
-  border-radius: 2%;
-  padding-top:1%;
 }
 .nav-item:hover{
   text-decoration: underline;
