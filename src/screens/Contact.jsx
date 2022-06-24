@@ -21,7 +21,7 @@ export default function Contacts() {
           </ul>
         </div>
       </div>
-        <a className="resume" href={resume} >Download Resume</a>
+        <a className="resume" href={"https://docs.google.com/document/d/1MaK_nBSgwQak2Vi5dz2X3whaJBJ_jCTjht8J4SB6reE/edit?usp=sharing"} >Download Resume</a>
     </div>
 
   )
