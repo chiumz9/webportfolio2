@@ -15,10 +15,12 @@ export default function Projects() {
   const peaklnk = "https://earnest-profiterole-786338.netlify.app/"
   const finlnk = "https://github.com/chiumz9/linkedfin/tree/main"
   
+  /*
   const gh-crpytolnk = 
   const gh-tohlnk = 
   const gh-peaklnk = 
   const gh-finlnk = 
+  */
 
   function handleClick(target) {
     console.log(target)
