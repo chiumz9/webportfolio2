@@ -15,12 +15,11 @@ export default function Projects() {
   const peaklnk = "https://earnest-profiterole-786338.netlify.app/"
   const finlnk = "https://github.com/chiumz9/linkedfin/tree/main"
   
-  /*
-  const gh-crpytolnk = 
-  const gh-tohlnk = 
-  const gh-peaklnk = 
-  const gh-finlnk = 
-  */
+  const gh-crpytolnk =  "https://cosmic-malasada-35de58.netlify.app"
+  const gh-tohlnk = "https://pages.git.generalassemb.ly/asdfzo9/Tower-of-Hanoi/"
+  const gh-peaklnk = "https://earnest-profiterole-786338.netlify.app/"
+  const gh-finlnk = "https://github.com/chiumz9/linkedfin/tree/main"
+ 
 
   function handleClick(target) {
     console.log(target)
@@ -37,7 +36,7 @@ export default function Projects() {
           <img className="project-image" src={cryptoimg} />
           <ul className='contact-logos'>
             <li><img className="launch-logo" src={launch} onClick={() => handleClick(crpytolnk)}/></li>
-            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(gh-crpytolnk)}/></li>
           </ul>
         </div>
         <div className="project-description">
@@ -62,7 +61,7 @@ export default function Projects() {
           <img className="project-image" src={tohimg} />
           <ul className='contact-logos'>
             <li><img className="launch-logo" src={launch} onClick={() => handleClick(tohlnk)}/></li>
-            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(gh-tohlnk)}/></li>
           </ul>
         </div>
       </div>
@@ -73,7 +72,7 @@ export default function Projects() {
           <img className="project-image" src={peakscout} />
           <ul className='contact-logos'>
             <li><img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}/></li>
-            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(gh-peaklnk)}/></li>
           </ul>
         </div>
         <div className='project-description'>
@@ -112,7 +111,7 @@ export default function Projects() {
           <img className="project-image" src={linkedfin} />
           <ul className='contact-logos'>
             <li><img className="launch-logo" src={launch} onClick={() => handleClick(peaklnk)}/></li>
-            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(crpytolnk)}/></li>
+            <li><img className='launch-logo' src={githublogo} onClick={() => handleClick(gh-finlnk)}/></li>
           </ul>
         </div>
       </div>
